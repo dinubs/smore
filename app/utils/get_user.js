@@ -5,9 +5,11 @@ import fs from 'fs';
 import path from 'path';
 import {get_settings, set_settings} from './settings.js';
 
+console.log(global.process.env)
+
 var client = new medium.MediumClient({
-  clientId: global.process.env['MEDIUM_CLIENT'],
-  clientSecret: global.process.env['MEDIUM_SECRET']
+  clientId: 'b126f4dc1ee3',
+  clientSecret: '239a493502aa37b1a50f21160a085a7415edd9ca'
 });
 
 const redirectURL = 'http://www.gavin.codes';
