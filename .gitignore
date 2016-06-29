@@ -33,6 +33,5 @@ node_modules
 .env
 dist
 release
-main.js
 main.js.map
 app/settings.json
