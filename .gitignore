@@ -32,6 +32,5 @@ node_modules
 # App packaged
 .env
 dist
-release
 main.js.map
 app/settings.json
