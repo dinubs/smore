@@ -30,7 +30,9 @@ node_modules
 .DS_Store
 
 # App packaged
+.env
 dist
 release
 main.js
 main.js.map
+app/settings.json

@@ -1,0 +1,70 @@
+.titleInput {
+  width: 100%;
+  display: block;
+
+  color: rgba(0,0,0,.8);
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  padding: 30px 0;
+  padding-bottom: 0px;
+  margin-top: 50px;
+  margin-left: -2.25px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  outline: none;
+
+  border: none;
+}
+
+.controls_wrap {
+  line-height: 50px;
+  background-color: white;
+
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  border-bottom: 1px solid rgba(0,0,0,.8);
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  max-width: 50%;
+}
+
+.controls_button {
+  flex: 1;
+  padding: 0 10px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.controls_button:hover {
+  background-color: #efefef;
+}
+
+.controls_button--active {
+  background-color: #eee;
+}
+
+.controls_button--h1, .controls_button--h2 {
+  max-width: 30px;
+}
+
+.controls_wrap_action__left, .controls_wrap_action__right {
+  position: fixed;
+  top: 0;
+}
+
+.controls_wrap_action__left {
+  left: 20px;
+}
+
+.controls_wrap_action__right {
+  right: 20px;
+}

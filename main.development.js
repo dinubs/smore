@@ -4,7 +4,7 @@ let menu;
 let template;
 let mainWindow = null;
 
-
+require('dotenv').config();
 if (process.env.NODE_ENV === 'development') {
   require('electron-debug')(); // eslint-disable-line global-require
 }
@@ -18,7 +18,7 @@ app.on('window-all-closed', () => {
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
     show: false,
-    width: 1024,
+    width: 1280,
     height: 728
   });
 

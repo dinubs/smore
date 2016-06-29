@@ -1,0 +1,35 @@
+.post {
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.09);
+  margin: 15px 0;
+  display: block;
+  text-decoration: none;
+}
+
+.post_header {
+  font-size: 31px;
+  margin-left: -1.94px;
+  line-height: 1.12;
+  letter-spacing: -.022em;
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgba(0,0,0,.8)
+}
+
+.post_image {
+  max-height: 240px;
+}
+
+.post_snippet {
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  color: rgba(0,0,0,.44);
+}

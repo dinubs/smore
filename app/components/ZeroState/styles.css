@@ -1,0 +1,12 @@
+.zerostate {
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+
+.zerostate_header {
+  font-size: 4.8rem;
+  color: rgba(0,0,0,0.3);
+  font-weight: bold;
+  padding: 15px 0;
+}
