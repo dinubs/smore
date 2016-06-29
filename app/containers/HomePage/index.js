@@ -37,7 +37,7 @@ class HomePage extends Component {
         </VerticalAlign>
       );
     }
-    if (this.state.loading) getPosts(this.props.user.username, (data) => this.setState({loading: false, posts: data.payload.posts}));
+    if (this.state.loading) getPosts(this.props.user.username, (data) => this.setState({loading: false, posts: data.payload.references.Post}));
     return (
       <Wrap>
         <TopNav />

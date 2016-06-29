@@ -7,7 +7,6 @@ export default function getPosts(username, cb) {
       return response.text();
     }).then((text) => {
       text = text.replace('])}while(1);</x>', '');
-      console.log(JSON.parse(text));
       return cb(JSON.parse(text));
     });
 }

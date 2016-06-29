@@ -2,7 +2,7 @@
 
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import {transitionTo} from 'react-router';
+import Router from 'react-router';
 import React, { Component } from 'react';
 import Helmet from "react-helmet";
 import * as UserActions from '../../actions/user';
@@ -92,6 +92,7 @@ class New extends Component {
         className += ' RichEditor-hidePlaceholder';
       }
     }
+    console.log(this.context, this.props);
 
     return (
       <Wrap>
@@ -142,7 +143,7 @@ class New extends Component {
           </div>
           <Button style={{marginTop: '15px'}} onClick={() => {
             create_post({title: this.state.title, html: stateToHTML(contentState), tags: this.state.tags, status: this.state.status}, (post) => {
-              transitionTo('/');
+              this.props.history.push('/');
             });
           }}>Publish</Button>
         </Modal>
