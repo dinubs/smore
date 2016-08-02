@@ -127,7 +127,7 @@ class New extends Component {
         </div>
         <Modal show={this.state.show_modal} onBackDropClick={() => this.setState({show_modal: false})}>
           <H1>Publish</H1>
-          <P style={{marginTop: '15px'}}>Once you publish this story you will not be able to edit in sMedium. If you want to add images and links, save this story as a draft, and edit the story in your browser.</P>
+          <P style={{marginTop: '15px'}}>Once you publish this story you will not be able to edit in s'more. If you want to add images and links, save this story as a draft, and edit the story in your browser.</P>
           <P style={{marginTop: '15px'}}>Publish as a 
             <Select onChange={(e) => {this.setState({status: e.target.value})}}>
               <option value="">choose one</option>

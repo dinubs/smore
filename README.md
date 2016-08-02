@@ -1,4 +1,4 @@
-# sMedium
+# s'more
 
 ### Development
 

@@ -31,7 +31,7 @@ class HomePage extends Component {
         <VerticalAlign>
         <Wrap>
           <H1 style={{textAlign: 'center'}}>Welcome!</H1>
-          <P style={{textAlign: 'center'}}>sMedium is a desktop editor for Medium, though you know that already because you're seeing this screen.</P>
+          <P style={{textAlign: 'center'}}>s'more is a desktop editor for Medium, though you know that already because you're seeing this screen.</P>
           <Button style={{margin: 'auto', marginTop: '15px'}} onClick={() => this.props.getFromMedium()}>Sign In w/ Medium</Button>
         </Wrap>
         </VerticalAlign>

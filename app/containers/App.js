@@ -9,7 +9,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Helmet title={`sMedium - A Desktop Medium Writer`} />
+        <Helmet title={`s'more - A Desktop Medium Writer`} />
         {this.props.children}
       </div>
     );

@@ -26,7 +26,6 @@ class TopNav extends Component {
         <div className={`${styles.topnav_links} ${link_class}`}>
           <A className={styles.topnav_link} to="/">Home</A>
           <A className={styles.topnav_link} to="/new">New Story</A>
-          <A className={styles.topnav_link} to="/about">About</A>
         </div>
       </div>
     );
